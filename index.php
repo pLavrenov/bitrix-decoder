@@ -64,7 +64,7 @@ class Decode {
     {
         $this->prepare_round();
 
-        //$this->prepare_compute();
+        $this->prepare_compute();
     }
 
     private function prepare_round()
