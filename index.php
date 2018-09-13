@@ -33,7 +33,7 @@ class Decode {
 
         $this->edit_variables_function('GLOBAL_FUNCTIONS');
 
-        $this->prepare();
+        //$this->prepare();
 
         file_put_contents(constant('ENCODE_FILE_PATH'), $this->file);
     }
@@ -76,8 +76,8 @@ class Decode {
 
     private function prepare_compute()
     {
-        $this->file = preg_replace_callback('/\(((\d+|\*|\/|\-|\+|\s+)+?)\)/', function($matches) {
-            return 111;
+        $this->file = preg_replace_callback('/\(([0-9-+*\/\s]{2,}?)\)/', function($matches) {
+            return eval("return $matches[1];");
         }, $this->file);
     }
 
