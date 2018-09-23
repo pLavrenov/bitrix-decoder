@@ -5,11 +5,12 @@ define('DECODE_FILE_PATH', './decode_file.php');
 define('ENCODE_FILE_PATH', './encode_file.php');
 
 define('GLOBAL_VARIABLES', [
-    '____153126584',
+    'название_массива',
+    'название_второго_массива'
 ]);
 
 define('GLOBAL_FUNCTIONS', [
-    '___1076931394'
+    'название_функции'
 ]);
 
 class Decode {
