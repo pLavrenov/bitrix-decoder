@@ -5,12 +5,11 @@ define('DECODE_FILE_PATH', './decode_file.php');
 define('ENCODE_FILE_PATH', './encode_file.php');
 
 define('GLOBAL_VARIABLES', [
-    'array1' => '_____352106240',
-    'array2' => '____1938786290',
+    '____153126584',
 ]);
 
 define('GLOBAL_FUNCTIONS', [
-    'func1' => '___42196359'
+    '___1076931394'
 ]);
 
 class Decode {
@@ -33,7 +32,7 @@ class Decode {
 
         $this->edit_variables_function('GLOBAL_FUNCTIONS');
 
-        //$this->prepare();
+        $this->prepare();
 
         file_put_contents(constant('ENCODE_FILE_PATH'), $this->file);
     }
@@ -64,7 +63,7 @@ class Decode {
     {
         $this->prepare_round();
 
-        //$this->prepare_compute();
+        $this->prepare_compute();
     }
 
     private function prepare_round()
@@ -85,14 +84,6 @@ class Decode {
 }
 
 $decode = new Decode;
-
-
-
-
-
-echo '<pre>';
-print_r(0);
-echo '</pre>';
 
 
 
