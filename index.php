@@ -82,7 +82,7 @@ class Decode {
         $this->file = preg_replace_callback('/(min|round|strtoupper|strrev)\([^\(\)\$]+\)/', function($matches) {
             $result = eval("return $matches[0];");
 
-            $this->console_log(gettype($result) . ' - ' . $matches[0] . ' --- ' . eval("return $matches[0];"));
+            //$this->console_log(gettype($result) . ' - ' . $matches[0] . ' --- ' . eval("return $matches[0];"));
 
             switch (gettype($result)) {
                 case 'string':
