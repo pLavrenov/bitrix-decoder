@@ -7,11 +7,12 @@ define('ENCODE_FILE_PATH', './encode_file.php');
 define('REPEATER_COUNT', 2);
 
 define('GLOBAL_VARIABLES', [
-    '____962051083',
+    'Массив_Значений',
+    'Массич_Значений_2',
 ]);
 
 define('GLOBAL_FUNCTIONS', [
-    '___652086434'
+    'Функция'
 ]);
 
 class Decode {
