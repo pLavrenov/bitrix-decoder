@@ -2,7 +2,7 @@
 
 Скрипт полуавтоматически преобразует закодированные файлы Bitrix в читабельный формат.
 
-![Пример использования](/images/preview.jpg)
+![Пример использования](https://github.com/pLavrenov/bitrix-decoder/blob/master/preview.jpg)
 
 # Инструкция
 
